@@ -1,0 +1,80 @@
+ /* == GOOGLE FONT == */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@600&family=Roboto:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+ /* == VARIABLE CSS == */
+ :root {
+
+     /* COLOR  CALL */
+     --Black-color: #000000;
+     --White-color: #ffffff;
+     --Green-color: #33ffff;
+     --Red-color: #ff3366;
+
+     /*== FONT CALL  ==*/
+     --Body-font: 'Roboto', sans-serif;
+     --Code-font: 'Source Code Pro', monospace;
+     --Khmer-font: 'Noto Serif Khmer', serif;
+ }
+
+ #menu {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     font-family: var(--Khmer-font);
+     justify-content: center;
+     background-color: var(--White-color);
+     border-bottom: 3px solid var(--Red-color);
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+
+ #menu {
+     font-family: var(--Khmer-font);
+     background-color: var(--White-color);
+     border-bottom: 3px solid var(--Red-color);
+     top: 0;
+     justify-content: center;
+     left: 0;
+     margin: 0;
+     display: flex;
+ }
+
+ #menu {
+     padding: 9px;
+ }
+
+ a {
+     background-color: var(--Black-color);
+     color: var(--White-color);
+     /* padding: 16px; */
+     margin-top: 10px;
+     text-decoration: none;
+     border-radius: 9px;
+     border-bottom: 3px solid var(--Red-color);
+     border-left: 3px solid var(--Red-color);
+ }
+
+
+ #menu a {
+     text-decoration: none;
+     color: var(--White-color);
+     padding: 9px;
+     margin: 0 10px;
+
+
+
+ }
+
+ h2 {
+     padding-top: 75px;
+     font-family: var(--Code-font);
+     text-align: center;
+ }
+
+ img {
+     height: 400px;
+     width: 400px;
+ }
