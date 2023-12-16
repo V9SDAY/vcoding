@@ -3,6 +3,8 @@
 @VS9DAY
 ![Alt text](preview.png)
 
+
+#Home Page
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -21,3 +23,24 @@
   </h2>
 </body>
 </html>
+
+
+#Menu
+
+```<div id="menu">
+
+
+
+<a href="index.php">ទំព័រដើម</a>
+
+<a href="about.php">អំពីខ្ញំ</a>
+
+<a href="contact.php">ទំនាក់ទំនង</a>
+
+<a href="service.php">សេវាកម្ម</a>
+
+<a href="blog.php">អត្ថបទ</a>
+
+
+
+</div>
