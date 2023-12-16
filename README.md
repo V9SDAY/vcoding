@@ -1,6 +1,6 @@
 # Active Nav Link Indicator using PHP
 
-@VS9DAY
+#Preview Image 
 ![Alt text](preview.png)
 
 
